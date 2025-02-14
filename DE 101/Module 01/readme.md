@@ -59,7 +59,10 @@
 [def10]:https://github.com/MLKURUNOVA/DataLearn/blob/main/DE%20101/Module%2001/img/Sales%20sparkline.png
 [def11]:https://github.com/MLKURUNOVA/DataLearn/blob/main/DE%20101/Module%2001/img/dashboard.png
 
-##Создание дашборда
+## Создание дашборда
+
 На основе созданных диаграмм собираем дашборд.Добавляем срезы и подключаем их к отчетам.
+
 ![Dashboard][def11]
-#####[Скачать дашборд](https://github.com/MLKURUNOVA/DataLearn/blob/main/DE%20101/Module%2001/data/%20Dashboard.xlsx)
+
+##### Скачать дашборд](https://github.com/MLKURUNOVA/DataLearn/blob/main/DE%20101/Module%2001/data/%20Dashboard.xlsx)
