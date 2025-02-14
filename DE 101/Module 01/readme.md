@@ -5,7 +5,7 @@
 - ***Storage Layer*** - хранилище
 - ***Business Layer***
 
-! [Архитектура аналитического решения][def2]
+![Архитектура аналитического решения][def2]
 
 [Скачать схему](Data.zip)
 
@@ -32,4 +32,4 @@
 
 
 [def]: https://github.com/MLKURUNOVA/DataLearn/blob/main/DE%20101/Module%2001/data/Sample%20-%20Superstore.xls
-[def2]: https://github.com/MLKURUNOVA/DataLearn/blob/main/DE%20101/Module%2001/AAР.png?raw=true"
+[def2]: https://github.com/MLKURUNOVA/DataLearn/blob/main/DE%20101/Module%2001/img/Архитектура%20аналитического%20решения.png
