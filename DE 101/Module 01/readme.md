@@ -65,4 +65,4 @@
 
 ![Dashboard][def11]
 
-##### Скачать дашборд](https://github.com/MLKURUNOVA/DataLearn/blob/main/DE%20101/Module%2001/data/%20Dashboard.xlsx)
+##### [Скачать дашборд](https://github.com/MLKURUNOVA/DataLearn/blob/main/DE%20101/Module%2001/data/%20Dashboard.xlsx)
