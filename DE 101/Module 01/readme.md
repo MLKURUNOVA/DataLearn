@@ -4,6 +4,7 @@
 - ***Source Layer*** - источники
 - ***Storage Layer*** - хранилище
 - ***Business Layer***
-<Архитектура аналитического решения 01.drawio.png>
-#####[Скачать схему](Data.zip)
+</Users/kurunovamaria09/Desktop/Data/Архитектура аналитического решения 01.drawio.png>
+[Скачать схему](Data.zip)
 ## Работа в Excel
+
