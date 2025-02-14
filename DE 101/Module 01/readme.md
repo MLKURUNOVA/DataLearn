@@ -5,13 +5,13 @@
 - ***Storage Layer*** - хранилище
 - ***Business Layer***
 
-<img src="https://github.com/MLKURUNOVA/DataLearn/blob/main/DE%20101/Module%2001/AAР.png?raw=true">
+! [Архитектура аналитического решения](https://github.com/MLKURUNOVA/DataLearn/blob/main/DE%20101/Module%2001/AAР.png?raw=true")
 
 [Скачать схему](Data.zip)
 
 ## 1.2 Работа в Excel
 
-Задача построить отчеты и дашборд на основе [полученных данных](https://github.com/MLKURUNOVA/DataLearn/blob/main/DE%20101/Module%2001/data/Sample%20-%20Superstore.xls) 
+Задача построить отчеты и дашборд на основе [полученных данных][def] 
 
 - Объединяем данные в одну рабочую таблицу 'Orders', на основе которой будет построена отчетность и дашборд
 - Составляем план отчетности, определяем параметры и показатели-в каком виде будет их визуализация
@@ -29,3 +29,6 @@
 |Сравнение категорий товаров|Линейчатая диаграмма|
 |Оптимальность способов доставки|Линейчатая диаграмма|
 |Основные показатели|Спарклайны|
+
+
+[def]: https://github.com/MLKURUNOVA/DataLearn/blob/main/DE%20101/Module%2001/data/Sample%20-%20Superstore.xls
