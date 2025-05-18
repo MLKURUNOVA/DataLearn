@@ -99,6 +99,11 @@ NumProfitPerson as(
 select product_name,person,profit 
 from NumProfitPerson 
 where number in (1,2,3);
+```
+>Результат запроса:
+![Top3profitsales](https://github.com/MLKURUNOVA/DataLearn/blob/main/DE%20101/Module%2002/img/top3profitsales.png)
+
+
 
 
 
