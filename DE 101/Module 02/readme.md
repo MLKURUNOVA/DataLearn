@@ -105,21 +105,38 @@ where number in (1,2,3);
 
 ## 1.3 Модель данных.
 Задача создать модель данных для [superstore.xls](https://github.com/MLKURUNOVA/DataLearn/blob/main/DE%20101/Module%2001/data/Sample%20-%20Superstore.xls).
-_Для архитектуры БД выбрана схема "Звезда" по Инману. Создаем Dimensions таблицы,далее Sales_fact. _
-- Концептуальная модель.
-_Определяем основные элементы.Можно сказать,составляем скорее диагрмму основных бизнес процессов(Что происходит между элементами?).Намечаем границы будущих таблиц._
+
+_Для архитектуры БД выбрана схема "Звезда" по Инману. Создаем Dimensions таблицы,далее Sales_fact._
+
+- **Концептуальная модель.**
+
+_Определяем основные элементы. Можно сказать,составляем скорее диагрмму основных бизнес процессов
+(Что происходит между элементами?). Намечаем границы будущих таблиц._
+
 ![conceptual data model](https://github.com/MLKURUNOVA/DataLearn/blob/main/DE%20101/Module%2002/img/conceptual%20data%20model.png)
-- Логическая модель.
-_Более точное определение наполнения таблиц в хранилище данных, но без синтаксиса(тип данных,ограничения null/not null, PK,FK). Доработка модели данных для соответсвия  общей концепции архитектуры БД._
+
+- **Логическая модель.**
+
+_Более точное определение наполнения таблиц в хранилище данных, но без синтаксиса
+(тип данных,ограничения null/not null, PK,FK). Доработка модели данных для соответсвия  общей концепции архитектуры БД._
+
 ![logical data model](https://github.com/MLKURUNOVA/DataLearn/blob/main/DE%20101/Module%2002/img/logical%20data%20model.png)
-- Физическая модель.
-_Финальный этап-добавление синтаксиса.Можно сказать,что данный этап непосредственно является DDL._
+
+- **Физическая модель.**
+
+_Финальный этап-добавление синтаксиса. Можно сказать,что данный этап непосредственно является DDL._
+
 ![physical data model ](https://github.com/MLKURUNOVA/DataLearn/blob/main/DE%20101/Module%2002/img/physical%20data%20model%20.png)
-- Generate SQL.
+
+- **Generate SQL.**
+
 _Генерируем SQL-запросы --> DDL. Выполняем в SQL клиенте._
-- Делаем```insert into table```.
+
+- **Делаем ```insert into table```.**
+
 _Заполняем Dimensions и Sales_fact._
-[data-modelling-ddl](https://github.com/MLKURUNOVA/DataLearn/blob/main/DE%20101/Module%2002/data/data-modelling-ddl.sql)-файл со скриптом.
+
+[data-modelling-ddl](https://github.com/MLKURUNOVA/DataLearn/blob/main/DE%20101/Module%2002/data/data-modelling-ddl.sql)- файл со скриптом.
 
 
 
