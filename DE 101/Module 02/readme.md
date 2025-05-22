@@ -104,7 +104,7 @@ where number in (1,2,3);
 ![Top3profitsales](https://github.com/MLKURUNOVA/DataLearn/blob/main/DE%20101/Module%2002/img/top3profitsales.png)
 
 ## 1.3 Модель данных.
-Задача создать модель данных для [superstore.xls](https://github.com/MLKURUNOVA/DataLearn/blob/main/DE%20101/Module%2001/data/Sample%20-%20Superstore.xls).
+Задача создать модель данных для файла с данными [superstore.xls](https://github.com/MLKURUNOVA/DataLearn/blob/main/DE%20101/Module%2001/data/Sample%20-%20Superstore.xls).
 
 _Для архитектуры БД выбрана схема "Звезда" по Инману. Создаем Dimensions таблицы,далее Sales_fact._
 
@@ -136,7 +136,7 @@ _Генерируем SQL-запросы --> DDL. Выполняем в SQL кл
 
 _Заполняем Dimensions и Sales_fact._
 
-[data-modelling-ddl](https://github.com/MLKURUNOVA/DataLearn/blob/main/DE%20101/Module%2002/data/data-modelling-ddl.sql)- файл со скриптом.
+[data-modelling-ddl.sql](https://github.com/MLKURUNOVA/DataLearn/blob/main/DE%20101/Module%2002/data/data-modelling-ddl.sql)- файл со скриптом.
 
 
 
