@@ -138,6 +138,8 @@ _Заполняем Dimensions и Sales_fact._
 
 [data-modelling-ddl.sql](https://github.com/MLKURUNOVA/DataLearn/blob/main/DE%20101/Module%2002/data/data-modelling-ddl.sql)- файл со скриптом.
 
+## 1.4 База данных в облаке.
+
 
 
 
