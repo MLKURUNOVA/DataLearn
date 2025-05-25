@@ -138,9 +138,12 @@ _Заполняем Dimensions и Sales_fact._
 [data-modelling-ddl.sql](https://github.com/MLKURUNOVA/DataLearn/blob/main/DE%20101/Module%2002/data/data-modelling-ddl.sql.2.sql)- файл со скриптом.
 
 ## 1.4 База данных в облаке.
+
 Так как AWS сейчас недоступен в России,я решила воспользоваться облаком [YandexCloud](https://yandex.cloud/ru). 
+
 ***Процесс работы:***
-1)Создать аккаунт в Яндекс Облаке.
+
+1)Создать аккаунт в Яндекс Облаке. 
 2)Выбрать ресурс **Кластер PostgreSQL**- я создала кластер с базовыми характеристиками. Важный момент : сделать хост публичным(после создания кластера перейти в хосты и настроить).
 3)Получить [сертификат SSL](https://yandex.cloud/ru/docs/managed-postgresql/operations/connect#get-ssl-cert).
 4)Подключиться к новой БД через DBeaver.
