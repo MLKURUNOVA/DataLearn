@@ -138,8 +138,30 @@ _Заполняем Dimensions и Sales_fact._
 [data-modelling-ddl.sql](https://github.com/MLKURUNOVA/DataLearn/blob/main/DE%20101/Module%2002/data/data-modelling-ddl.sql.2.sql)- файл со скриптом.
 
 ## 1.4 База данных в облаке.
+Так как AWS сейчас недоступен в России,я решила воспользоваться облаком [YandexCloud](https://yandex.cloud/ru). 
+***Процесс работы:***
+1)Создать аккаунт в Яндекс Облаке.
+2)Выбрать ресурс **Кластер PostgreSQL**- я создала кластер с базовыми характеристиками. Важный момент : сделать хост публичным(после создания кластера перейти в хосты и настроить).
+3)Получить [сертификат SSL](https://yandex.cloud/ru/docs/managed-postgresql/operations/connect#get-ssl-cert).
+4)Подключиться к новой БД через DBeaver.
+![newconnection](https://github.com/MLKURUNOVA/DataLearn/blob/main/DE%20101/Module%2002/img/New%20connection%20to%20db.png)
+5)Построить схемы [stg](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module02/DE%20-%20101%20Lab%202.1/stg.orders.sql) и [dw](https://github.com/Data-Learn/data-engineering/blob/master/DE-101%20Modules/Module02/DE%20-%20101%20Lab%202.1/from_stg_to_dw.sql).
+6)Выполнить несколько запросов.
 
+## 1.5 Как донести данные до бизнес-пользователя.
+Я решила воспользоваться сервисом Yandex DataLens.
+Для этого:
+- Открываем доступ к сервису через настройки кластера.
+- Создаем подключение и проверяем соединение _-создаем Датасет._ Интерфейс чем то похож на Google Data Studio из урока.
+- Создаем Чарты ( вариант 1:самостоятельно выбрать поля,изменить их агрегацию, выбрать график,
+вариант 2: написать sql-запрос,я использовала оба варианта)
+- Составляем дашборд
+![dashboard1](https://github.com/MLKURUNOVA/DataLearn/blob/main/DE%20101/Module%2002/img/dashboard1.png)
+![dashboard2](https://github.com/MLKURUNOVA/DataLearn/blob/main/DE%20101/Module%2002/img/dashboard2.png)
+![dashboard3](https://github.com/MLKURUNOVA/DataLearn/blob/main/DE%20101/Module%2002/img/dashboard3.png)
+![dashboard4](https://github.com/MLKURUNOVA/DataLearn/blob/main/DE%20101/Module%2002/img/dashboard4.png)
 
+Ссылка на [Dashboard](https://datalens.yandex/l2tyetwrbuje7).
 
 
 
